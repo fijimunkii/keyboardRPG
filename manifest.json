@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "keyboardRPG",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.io",
-  "homepage_url": "http://extensionizr.com",
+  "description": "gain XP and level up with keyboard shortcuts!!",
+  "homepage_url": "http://keyboardRPG.herokuapp.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -21,13 +21,20 @@
     "https://mail.google.com/*",
     "http://mail.google.com/*"
   ],
+  "web_accessible_resources": [
+    "js/jquery/jquery-1.10.2.min.map"
+  ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://www.google.com/*",
+        "https://mail.google.com/*",
+        "http://mail.google.com/*"
       ],
       "js": [
-        "src/inject/inject.js"
+        "src/inject/keyboardRPG.js",
+        "src/inject/mousetrap.js",
+        "js/jquery/jquery-1.10.2.min.js"
       ]
     }
   ]
