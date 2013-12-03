@@ -33,8 +33,9 @@
       ],
       "js": [
         "src/inject/keyboardRPG.js",
-        "src/inject/mousetrap.js",
-        "js/jquery/jquery-1.10.2.min.js"
+        "js/jquery/jquery-1.10.2.min.js",
+        "js/jquery/jquery.hotkeys.js",
+        "src/inject/mousetrap.js"
       ]
     }
   ]
