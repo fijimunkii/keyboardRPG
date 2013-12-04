@@ -16,6 +16,7 @@
     ],
     "persistent": true
   },
+
   "options_page": "src/options_custom/index.html",
   "permissions": [
     "https://mail.google.com/*",
