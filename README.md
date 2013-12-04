@@ -28,6 +28,10 @@ Chrome APIs
 Commands API - http://developer.chrome.com/extensions/commands.html
 -Use: http://stackoverflow.com/a/18499297/2474735
 
+ContentScript - http://code.google.com/chrome/extensions/content_scripts.html
+http://code.google.com/chrome/extensions/messaging.html
+-Use: http://stackoverflow.com/a/5502314/2474735
+
 
 User stories
 ============
