@@ -23,6 +23,13 @@ WebApps ->
     ....
 
 
+Chrome APIs
+===========
+Commands API - http://developer.chrome.com/extensions/commands.html
+
+
+
+
 User stories
 ============
 
