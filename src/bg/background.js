@@ -11,3 +11,7 @@
 //   	chrome.pageAction.show(sender.tab.id);
 //     sendResponse();
 //   });
+
+chrome.commands.onCommand.addListener(function(command) {
+  console.log('Command:', command);
+});
