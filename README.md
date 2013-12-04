@@ -26,8 +26,7 @@ WebApps ->
 Chrome APIs
 ===========
 Commands API - http://developer.chrome.com/extensions/commands.html
-
-
+-Use: http://stackoverflow.com/a/18499297/2474735
 
 
 User stories
