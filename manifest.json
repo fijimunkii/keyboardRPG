@@ -10,19 +10,13 @@
     "128": "icons/icon128.png"
   },
   "commands": {
-    "_execute_browser_action": {
+    "close_tab": {
       "suggested_key": {
-        "windows": "Ctrl+Shift+Y",
-        "mac": "Command+Shift+Y",
-        "chromeos": "Ctrl+Shift+U",
-        "linux": "Ctrl+Shift+J"
-      }
-    },
-    "_execute_page_action": {
-      "suggested_key": {
-        "default": "Ctrl+E",
-        "windows": "Alt+P"
-      }
+        "default": "Ctrl+W",
+        "windows": "Ctrl+W",
+        "mac": "MacCtrl + W"
+      },
+      "description": "does this work"
     }
   },
   "browser_action": {
@@ -43,6 +37,7 @@
 
   "options_page": "src/options_custom/index.html",
   "permissions": [
+    "background",
     "https://mail.google.com/*",
     "http://mail.google.com/*"
   ],

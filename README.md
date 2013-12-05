@@ -23,6 +23,10 @@ WebApps ->
     ....
 
 
+Limitations of event listeners:
+http://stackoverflow.com/a/7296303/2474735
+
+
 Chrome APIs
 ===========
 Commands API - http://developer.chrome.com/extensions/commands.html
