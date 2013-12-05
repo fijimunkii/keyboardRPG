@@ -10,23 +10,23 @@ chrome.extension.sendMessage({}, function(response) {
 		// ----------------------------------------------------------
 
 
-    $(document).on('keydown', 'g i', function() {
+    Mousetrap.bind('g i', function() {
       console.log("navigated to inbox - 2 points");
     });
 
-    $(document).on('keydown', 'g a', function() {
+    Mousetrap.bind('g a', function() {
       console.log("navigated to all mail - 2 points");
     });
 
-    $(document).on('keydown', 'j', function() {
+    Mousetrap.bind('j', function() {
       console.log("navigated down - 1 point");
     });
 
-    $(document).on('keydown', 'k', function() {
+    Mousetrap.bind('k', function() {
       console.log("navigated up - 1 point");
     });
 
-    $(document).on('keydown', 'e', function() {
+    Mousetrap.bind('e', function() {
       console.log("archived an email - 3 points!");
     });
 
@@ -34,7 +34,7 @@ chrome.extension.sendMessage({}, function(response) {
       console.log("KONAMI CODE!!!!");
     });
 
-    $('div[aria-label="Message Body"]').bind('keydown', 'command+enter+shift', function(e) {
+    Mousetrap.bind(['command+enter+shift','ctrl+enter+shift'], function(e) {
       $('div[aria-label="Send and archive"]').click();
       console.log("SEND & ARCHIVE FTW!");
     });
